@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Освіта та Хобі</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Резюме</h1>
+    </header>
+    <main> 
+        <h2 style="text-align: center;">Гуро Владислав Олександрович</h2>
+        <section class="information"> 
+                <div class="photo">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>            
+                <div class="info">
+                    <p><strong>Дата народження: 11.08.2005</strong></p>
+                    <p><strong>Місто: Кодима</strong></p>
+                    <p><strong>Моб. телефон: +380677803021</strong></p>
+                    <p><strong>E-mail: vladchik2005@gmail.com</strong></p>
+                </div>  
+        </section>   
+        <h2>Освіта: </h2>
+            <p>Вересень 2022 р. – червень 2026 р., студент національного технічного університету<br> ‘Харківський політехнічний інститут ‘ м. Харків, факультет «Навчально – науковий інститут<br> комп’ютерних наук та інформаційних технологій», освітня програма ‘Інженерія програмного<br> забезпечення’. На даний час студент третього курсу.</p>
+        <h2>Додаткова освіта: </h2>
+            <p>З січня 2025 – Навчаюсь в Hillel IT School</p>
+        <h2>Професійні навички: </h2>
+        <ul>
+            <li>Знання мов програмування Python, C++, C#, HTML, Css, JavaScript </li>
+            <li>Уміння працювати з базовими програмами MS Office (Access, Excel, Power Point, Word, WordPad)</li>
+            <li>Знання мов: українська, англійська, російська</li>
+        </ul>
+        <h2>Особисті якості: </h2>
+        <ul>
+            <li>Відповідальність</li>
+            <li>Уважність</li>
+            <li>Працьовитість</li>
+            <li>Комунікабельність</li>
+            <li>Ініціативність</li>
+        </ul>
+        <h2>Додаткова інформація: </h2>
+        <ul>
+            <li>Сімейний стан: не одружений</li>
+            <li>Водійське посвідчення: так</li>
+            <li>Власне авто: ні</li>
+            <li>Можливість відряджень: так</li>
+            <li>Без шкідливих звичок</li>
+        </ul>
+
+    </main>
+
 </body>
 </html>
+ 
